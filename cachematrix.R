@@ -10,8 +10,8 @@ makeCacheMatrix <- function(x = matrix()) {
     # They want to work with this matrix ...
     setMatrix <- function(y) {
         x <<- y
-        # ... the inverse is not valid
-        inv <- NULL
+        # ... the inverse is no more valid
+        inv <<- NULL
     }
     
     # Ok, they need it back
